@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useCallback, useEffect } from 'react';
-import { Match, Player, DayOfWeek, DoublesRanking } from '../types';
+import { Match, Player, DayOfWeek, DoublesRanking } from '../../types.ts';
 import { GoldMedalIcon, SilverMedalIcon, BronzeMedalIcon, DownloadIcon, WhatsAppIcon } from './Icons';
 import { calculateIndividualRankings } from '../services/rankingService';
 import {
