@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Player, Match } from '../types';
+import { Player, Match } from '../../types.ts';
 import { TABS } from '../constants';
 import { UploadIcon } from './Icons';
 

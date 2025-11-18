@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Player } from '../types';
+import { Player } from '../../types.ts';
 import { EditIcon, TrashIcon, UserPlusIcon, CameraIcon } from './Icons';
 
 interface PlayerManagerProps {

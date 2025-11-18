@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Match, Player, DayOfWeek } from '../types';
+import { Match, Player, DayOfWeek } from '../../types.ts';
 import { DownloadIcon } from './Icons';
 
 interface MatchHistoryProps {

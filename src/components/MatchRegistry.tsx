@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Player, Match, TeamSuggestion } from '../types';
+import { Match, Player, DayOfWeek } from '../../types.ts';
 import { WhatsAppIcon, SparklesIcon } from './Icons';
 import { getBalancedTeamSuggestion } from '../services/geminiService';
 import { calculateIndividualRankings } from '../services/rankingService';
